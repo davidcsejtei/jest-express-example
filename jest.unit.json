@@ -1,5 +1,5 @@
 {
-    "coverageDirectory": "../coverage",
+    "coverageDirectory": "./coverage",
     "testMatch": [
         "**/?(*.)+(spec).js?(x)"
     ],
