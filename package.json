@@ -1,0 +1,20 @@
+{
+  "name": "cofigure-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "jest -c ./jest.unit.json",
+    "test:coverage": "jest --coverage -c ./jest.unit.json"
+  },
+  "author": "Dávid Csejtei",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
